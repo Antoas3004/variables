@@ -1,0 +1,19 @@
+public class understading {
+	int a = 1;		//instance variable
+
+	void m() {
+		int a = 2;  //local variable
+		System.out.println(a);
+	}
+	void n() {
+		System.out.println(a);
+	}
+
+	public static void main(String[] args) {
+		understading vari = new understading();
+		vari.m();
+		vari.n();
+	}
+}
+ //instance variable can use any method inside a class
+// local variable can use only that method only
